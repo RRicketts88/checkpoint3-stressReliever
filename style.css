@@ -1,0 +1,42 @@
+/* here i am centering and styling the text at the top of the page */
+h1 {
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+    font-size: 220%;
+}
+/* here i am positioning the dunk tank picture */
+#dunktankimg {
+    position: relative;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+/* here i am positioning and sizing everything regarding the clicker button */
+.dunktank .btn {
+    position: relative;
+    display: block;
+    margin-left: 48%;
+    margin-top: -23.5%;
+    width: 5%;
+    background-color: red;
+    border-radius: 50%;
+    height: 40px;
+    font-size: 50%;
+    text-align: center;
+    outline: none;
+}
+  /* here i am changing what happens to the clicker button when you hover over the clicker button. I'm also styling the cursor when I hover */
+
+  .dunktank .btn:hover {
+    background-color: pink;
+    border-color: black;
+    cursor: grab;
+  }
+/* here i am making a nice font for and positioning the count */
+#counter {
+    position: relative;
+    margin-left: 50px;
+    font-size: 200%;
+    font-family: 'Anton', sans-serif;
+}
